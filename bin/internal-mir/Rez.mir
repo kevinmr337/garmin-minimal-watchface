@@ -1,0 +1,1734 @@
+[ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [icon_heart,9,27,37]; @symbol_type<0> = [ResourceId,9,41,51]; ]
+        var icon_heart as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [icon_steps,10,27,37]; @symbol_type<0> = [ResourceId,10,41,51]; ]
+        var icon_steps as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [icon_flame,11,27,37]; @symbol_type<0> = [ResourceId,11,41,51]; ]
+        var icon_flame as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 12; @position = 27; initialized = true; @symbol_vardef = [icon_notif,12,27,37]; @symbol_type<0> = [ResourceId,12,41,51]; ]
+        var icon_notif as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [icon_sun,13,27,35]; @symbol_type<0> = [ResourceId,13,39,49]; ]
+        var icon_sun as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [icon_moon,14,27,36]; @symbol_type<0> = [ResourceId,14,40,50]; ]
+        var icon_moon as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [icon_test,15,27,36]; @symbol_type<0> = [ResourceId,15,40,50]; ]
+        var icon_test as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,16,27,39]; @symbol_type<0> = [ResourceId,16,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 19; @symbol_moduledef = [Layouts,19,11,18]; ]
+    module Layouts {
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 19; ]
+        <init> {
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 20; @symbol_functiondef = [WatchFace,20,17,26]; @symbol_param<0> = [dc,20,27,29]; @symbol_param<0>_type<0> = [Graphics,20,33,41]; @symbol_param<0>_type<1> = [Dc,20,42,44]; @symbol_return<0> = [Array,20,49,54]; @symbol_return<1> = [WatchUi,20,55,62]; @symbol_return<2> = [Drawable,20,63,71]; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_Users_kevinmendez_Documents_projects_portafolio_Garmin_minimal_venu3_face_bin_gen_006_B4260_00_source_Rez_mcgen_20_73_26_8_start:
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 21 12 ]
+            [ "_Users_kevinmendez_Documents_projects_portafolio_Garmin_minimal_venu3_face_bin_gen_006_B4260_00_source_Rez_mcgen_20_73_26_8_start" "_Users_kevinmendez_Documents_projects_portafolio_Garmin_minimal_venu3_face_bin_gen_006_B4260_00_source_Rez_mcgen_20_73_26_8_stop" ]
+            %rez_cmp_local_custom_drawable_11939594661139614796.1 = local;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 21 16 66 ];
+            symbol [ Background %tmp.4 21 73 83 ];
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_11939594661139614796.1 %tmp.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 21 16 66 ];
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 23 12 ]
+            [ "_Users_kevinmendez_Documents_projects_portafolio_Garmin_minimal_venu3_face_bin_gen_006_B4260_00_source_Rez_mcgen_20_73_26_8_start" "_Users_kevinmendez_Documents_projects_portafolio_Garmin_minimal_venu3_face_bin_gen_006_B4260_00_source_Rez_mcgen_20_73_26_8_stop" ]
+            %rez_cmp_local_text_TimeLabel.2 = local;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 23 16 44 ];
+            symbol [ WatchUi %tmp.7 23 51 58 ];
+            %tmp.7 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.8 23 59 63 ];
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 6;
+            %tmp.11 = const :identifier;
+            symbol [ identifier %tmp.11 23 66 76 const ];
+            %tmp.12 = "TimeLabel";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            symbol [ color %tmp.16 23 92 97 const ];
+            symbol [ Graphics %tmp.17 23 99 107 ];
+            %tmp.17 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLUE %tmp.18 23 108 118 ];
+            %tmp.18 = getv %tmp.17 :COLOR_BLUE;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            symbol [ locX %tmp.22 23 121 125 const ];
+            %tmp.23 = lgetv %dc;
+            symbol [ dc %tmp.23 23 128 130 ];
+            symbol [ getWidth %tmp.24 23 131 139 ];
+            %tmp.24 = getv function %tmp.23 :getWidth;
+            %tmp.25 = invoke %tmp.23 %tmp.24();
+            %tmp.26 = 0.5;
+            %tmp.27 = mul %tmp.25 %tmp.26;
+            %tmp.28 = dup %tmp.20;
+            %tmp.29 = aputv %tmp.28 %tmp.22 %tmp.27;
+            %tmp.31 = const :locY;
+            symbol [ locY %tmp.31 23 151 155 const ];
+            %tmp.32 = lgetv %dc;
+            symbol [ dc %tmp.32 23 159 161 ];
+            symbol [ getHeight %tmp.33 23 162 171 ];
+            %tmp.33 = getv function %tmp.32 :getHeight;
+            %tmp.34 = invoke %tmp.32 %tmp.33();
+            %tmp.35 = lgetv %dc;
+            symbol [ dc %tmp.35 23 176 178 ];
+            symbol [ getFontHeight %tmp.36 23 179 192 ];
+            %tmp.36 = getv function %tmp.35 :getFontHeight;
+            symbol [ Graphics %tmp.37 23 193 201 ];
+            %tmp.37 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.38 23 202 212 ];
+            %tmp.38 = getv %tmp.37 :FONT_LARGE;
+            %tmp.39 = invoke %tmp.35 %tmp.36(%tmp.38);
+            %tmp.40 = sub %tmp.34 %tmp.39;
+            %tmp.41 = 0.5;
+            %tmp.42 = mul %tmp.40 %tmp.41;
+            %tmp.43 = dup %tmp.29;
+            %tmp.44 = aputv %tmp.43 %tmp.31 %tmp.42;
+            %tmp.46 = const :justification;
+            symbol [ justification %tmp.46 23 224 237 const ];
+            symbol [ Graphics %tmp.47 23 239 247 ];
+            %tmp.47 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.48 23 248 267 ];
+            %tmp.48 = getv %tmp.47 :TEXT_JUSTIFY_CENTER;
+            %tmp.49 = dup %tmp.44;
+            %tmp.50 = aputv %tmp.49 %tmp.46 %tmp.48;
+            %tmp.52 = const :font;
+            symbol [ font %tmp.52 23 270 274 const ];
+            symbol [ Graphics %tmp.53 23 276 284 ];
+            %tmp.53 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.54 23 285 295 ];
+            %tmp.54 = getv %tmp.53 :FONT_LARGE;
+            %tmp.55 = dup %tmp.50;
+            %tmp.56 = aputv %tmp.55 %tmp.52 %tmp.54;
+            %tmp.5 = newc %tmp.8 (%tmp.56);
+            lputv %rez_cmp_local_text_TimeLabel.2 %tmp.5;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 23 16 44 ];
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 25 12 ]
+            %tmp.57 = newa 2 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.57 25 105 110 ];
+            symbol [ WatchUi %tmp.57 25 111 118 ];
+            symbol [ Drawable %tmp.57 25 119 127 ];
+            %tmp.58 = lgetv %rez_cmp_local_custom_drawable_11939594661139614796.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %tmp.58 25 20 70 ];
+            %tmp.59 = dup %tmp.57;
+            %tmp.60 = aputv %tmp.59 0 %tmp.58;
+            %tmp.61 = lgetv %rez_cmp_local_text_TimeLabel.2;
+            symbol [ rez_cmp_local_text_TimeLabel %tmp.61 25 72 100 ];
+            %tmp.62 = dup %tmp.60;
+            %tmp.63 = aputv %tmp.62 1 %tmp.61;
+            ret %tmp.63;
+_Users_kevinmendez_Documents_projects_portafolio_Garmin_minimal_venu3_face_bin_gen_006_B4260_00_source_Rez_mcgen_20_73_26_8_stop:
+        }
+    }
+    [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 29; @symbol_moduledef = [Strings,29,11,18]; ]
+    module Strings {
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 29; ]
+        <init> {
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 30; @position = 27; initialized = true; @symbol_vardef = [ColorLightGray,30,27,41]; @symbol_type<0> = [ResourceId,30,45,55]; ]
+        var ColorLightGray as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 31; @position = 27; initialized = true; @symbol_vardef = [ColorBlue,31,27,36]; @symbol_type<0> = [ResourceId,31,40,50]; ]
+        var ColorBlue as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; @symbol_vardef = [ColorRed,32,27,35]; @symbol_type<0> = [ResourceId,32,39,49]; ]
+        var ColorRed as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 33; @position = 27; initialized = true; @symbol_vardef = [ForegroundColorTitle,33,27,47]; @symbol_type<0> = [ResourceId,33,51,61]; ]
+        var ForegroundColorTitle as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 34; @position = 27; initialized = true; @symbol_vardef = [BackgroundColorTitle,34,27,47]; @symbol_type<0> = [ResourceId,34,51,61]; ]
+        var BackgroundColorTitle as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; @symbol_vardef = [ColorDarkGray,35,27,40]; @symbol_type<0> = [ResourceId,35,44,54]; ]
+        var ColorDarkGray as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 36; @position = 27; initialized = true; @symbol_vardef = [MilitaryFormatTitle,36,27,46]; @symbol_type<0> = [ResourceId,36,50,60]; ]
+        var MilitaryFormatTitle as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 37; @position = 27; initialized = true; @symbol_vardef = [ColorBlack,37,27,37]; @symbol_type<0> = [ResourceId,37,41,51]; ]
+        var ColorBlack as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 38; @position = 27; initialized = true; @symbol_vardef = [ColorWhite,38,27,37]; @symbol_type<0> = [ResourceId,38,41,51]; ]
+        var ColorWhite as ResourceId;
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 39; @position = 27; initialized = true; @symbol_vardef = [AppName,39,27,34]; @symbol_type<0> = [ResourceId,39,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 42; @symbol_moduledef = [Styles,42,11,17]; ]
+    module Styles {
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 42; ]
+        <init> {
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 43; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,43,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 43; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 44 18 ]
+                symbol [ Graphics %tmp.64 44 34 42 ];
+                %tmp.64 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.65 44 43 62 ];
+                %tmp.65 = getv %tmp.64 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.65;
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 45 18 ]
+                symbol [ Graphics %tmp.66 45 25 33 ];
+                %tmp.66 = getm $.Toybox.Graphics;
+                symbol [ FONT_SMALL %tmp.67 45 34 44 ];
+                %tmp.67 = getv %tmp.66 :FONT_SMALL;
+                putv self :font %tmp.67;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 44; @position = 18; @symbol_constdef = [justification,44,18,31]; ]
+            const justification;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 45; @position = 18; @symbol_constdef = [font,45,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 48; @symbol_moduledef = [system_size__menu_header,48,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 48; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 49; @position = 18; @symbol_constdef = [width,49,18,23]; @symbol_type<0> = [Number,49,27,33]; ]
+            const width as Number = 454;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 50; @position = 18; @symbol_constdef = [height,50,18,24]; @symbol_type<0> = [Number,50,28,34]; ]
+            const height as Number = 105;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 53; @symbol_moduledef = [system_loc__hint_button_left_bottom,53,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 53; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 54; @position = 18; @symbol_constdef = [exclude,54,18,25]; @symbol_type<0> = [Boolean,54,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 57; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,57,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 57; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 58 18 ]
+                symbol [ Graphics %tmp.68 58 34 42 ];
+                %tmp.68 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.69 58 43 62 ];
+                %tmp.69 = getv %tmp.68 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.70 58 63 71 ];
+                %tmp.70 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.71 58 72 92 ];
+                %tmp.71 = getv %tmp.70 :TEXT_JUSTIFY_VCENTER;
+                %tmp.72 = bitor %tmp.69 %tmp.71;
+                putv self :justification %tmp.72;
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 59 18 ]
+                symbol [ Graphics %tmp.73 59 25 33 ];
+                %tmp.73 = getm $.Toybox.Graphics;
+                symbol [ FONT_SMALL %tmp.74 59 34 44 ];
+                %tmp.74 = getv %tmp.73 :FONT_SMALL;
+                putv self :font %tmp.74;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 58; @position = 18; @symbol_constdef = [justification,58,18,31]; ]
+            const justification;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 59; @position = 18; @symbol_constdef = [font,59,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 62; @symbol_moduledef = [prompt_loc__body_no_title,62,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 62; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 63; @position = 18; @symbol_constdef = [x,63,18,19]; @symbol_type<0> = [Number,63,23,29]; ]
+            const x as Number = 45;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 64; @position = 18; @symbol_constdef = [y,64,18,19]; @symbol_type<0> = [Number,64,23,29]; ]
+            const y as Number = 68;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 67; @symbol_moduledef = [system_icon_dark__about,67,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 67; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 68; @position = 18; @symbol_constdef = [filename,68,18,26]; @symbol_type<0> = [String,68,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_dark__about.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 69; @position = 18; @symbol_constdef = [compress,69,18,26]; @symbol_type<0> = [String,69,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 70; @position = 18; @symbol_constdef = [dithering,70,18,27]; @symbol_type<0> = [String,70,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 71; @position = 18; @symbol_constdef = [automaticPalette,71,18,34]; @symbol_type<0> = [String,71,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 72; @position = 18; @symbol_constdef = [packingFormat,72,18,31]; @symbol_type<0> = [String,72,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 75; @symbol_moduledef = [system_icon_light__question,75,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 75; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 76; @position = 18; @symbol_constdef = [filename,76,18,26]; @symbol_type<0> = [String,76,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__question.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 77; @position = 18; @symbol_constdef = [compress,77,18,26]; @symbol_type<0> = [String,77,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 78; @position = 18; @symbol_constdef = [dithering,78,18,27]; @symbol_type<0> = [String,78,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 79; @position = 18; @symbol_constdef = [automaticPalette,79,18,34]; @symbol_type<0> = [String,79,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 80; @position = 18; @symbol_constdef = [packingFormat,80,18,31]; @symbol_type<0> = [String,80,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 83; @symbol_moduledef = [system_loc__hint_button_left_top,83,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 83; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 84; @position = 18; @symbol_constdef = [exclude,84,18,25]; @symbol_type<0> = [Boolean,84,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 87; @symbol_moduledef = [prompt_font__title,87,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 87; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 88 18 ]
+                symbol [ Graphics %tmp.75 88 34 42 ];
+                %tmp.75 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.76 88 43 62 ];
+                %tmp.76 = getv %tmp.75 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.77 88 63 71 ];
+                %tmp.77 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.78 88 72 92 ];
+                %tmp.78 = getv %tmp.77 :TEXT_JUSTIFY_VCENTER;
+                %tmp.79 = bitor %tmp.76 %tmp.78;
+                putv self :justification %tmp.79;
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 89 18 ]
+                symbol [ Graphics %tmp.80 89 25 33 ];
+                %tmp.80 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.81 89 34 44 ];
+                %tmp.81 = getv %tmp.80 :FONT_XTINY;
+                putv self :font %tmp.81;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 88; @position = 18; @symbol_constdef = [justification,88,18,31]; ]
+            const justification;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 89; @position = 18; @symbol_constdef = [font,89,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 92; @symbol_moduledef = [system_icon_dark__discard,92,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 92; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 93; @position = 18; @symbol_constdef = [filename,93,18,26]; @symbol_type<0> = [String,93,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_dark__discard.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [compress,94,18,26]; @symbol_type<0> = [String,94,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [dithering,95,18,27]; @symbol_type<0> = [String,95,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 96; @position = 18; @symbol_constdef = [automaticPalette,96,18,34]; @symbol_type<0> = [String,96,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 97; @position = 18; @symbol_constdef = [packingFormat,97,18,31]; @symbol_type<0> = [String,97,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 100; @symbol_moduledef = [system_size__menu_item,100,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 100; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 101; @position = 18; @symbol_constdef = [width,101,18,23]; @symbol_type<0> = [Number,101,27,33]; ]
+            const width as Number = 454;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 102; @position = 18; @symbol_constdef = [height,102,18,24]; @symbol_type<0> = [Number,102,28,34]; ]
+            const height as Number = 116;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 105; @symbol_moduledef = [system_color_dark__text,105,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 105; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 107 18 ]
+                symbol [ Graphics %tmp.82 107 31 39 ];
+                %tmp.82 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.83 107 40 57 ];
+                %tmp.83 = getv %tmp.82 :COLOR_TRANSPARENT;
+                putv self :background %tmp.83;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 106; @position = 18; @symbol_constdef = [color,106,18,23]; @symbol_type<0> = [Number,106,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 107; @position = 18; @symbol_constdef = [background,107,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 110; @symbol_moduledef = [system_icon_destructive__discard,110,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 110; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 111; @position = 18; @symbol_constdef = [filename,111,18,26]; @symbol_type<0> = [String,111,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_destructive__discard.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 112; @position = 18; @symbol_constdef = [dithering,112,18,27]; @symbol_type<0> = [String,112,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [packingFormat,113,18,31]; @symbol_type<0> = [String,113,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 116; @symbol_moduledef = [system_icon_dark__hint_action_menu,116,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 116; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 117; @position = 18; @symbol_constdef = [filename,117,18,26]; @symbol_type<0> = [String,117,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_dark__hint_action_menu.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 118; @position = 18; @symbol_constdef = [dithering,118,18,27]; @symbol_type<0> = [String,118,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 119; @position = 18; @symbol_constdef = [packingFormat,119,18,31]; @symbol_type<0> = [String,119,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 122; @symbol_moduledef = [prompt_size__title,122,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 122; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [width,123,18,23]; @symbol_type<0> = [Number,123,27,33]; ]
+            const width as Number = 192;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 124; @position = 18; @symbol_constdef = [height,124,18,24]; @symbol_type<0> = [Number,124,28,34]; ]
+            const height as Number = 81;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 127; @symbol_moduledef = [confirmation_font__body,127,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 127; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 128 18 ]
+                symbol [ Graphics %tmp.84 128 34 42 ];
+                %tmp.84 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.85 128 43 62 ];
+                %tmp.85 = getv %tmp.84 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.86 128 63 71 ];
+                %tmp.86 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.87 128 72 92 ];
+                %tmp.87 = getv %tmp.86 :TEXT_JUSTIFY_VCENTER;
+                %tmp.88 = bitor %tmp.85 %tmp.87;
+                putv self :justification %tmp.88;
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 129 18 ]
+                symbol [ Graphics %tmp.89 129 25 33 ];
+                %tmp.89 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.90 129 34 43 ];
+                %tmp.90 = getv %tmp.89 :FONT_TINY;
+                putv self :font %tmp.90;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [justification,128,18,31]; ]
+            const justification;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 129; @position = 18; @symbol_constdef = [font,129,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 132; @symbol_moduledef = [system_color_dark__background,132,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 132; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [color,133,18,23]; @symbol_type<0> = [Number,133,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 134; @position = 18; @symbol_constdef = [background,134,18,28]; @symbol_type<0> = [Number,134,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 137; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,137,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 137; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [exclude,138,18,25]; @symbol_type<0> = [Boolean,138,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 141; @symbol_moduledef = [system_size__launch_icon,141,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 141; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [scaleX,142,18,24]; @symbol_type<0> = [Number,142,28,34]; ]
+            const scaleX as Number = 70;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [scaleY,143,18,24]; @symbol_type<0> = [Number,143,28,34]; ]
+            const scaleY as Number = 70;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 144; @position = 18; @symbol_constdef = [scaleRelativeTo,144,18,33]; @symbol_type<0> = [String,144,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 147; @symbol_moduledef = [confirmation_input__confirm,147,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 147; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [y1,148,18,20]; @symbol_type<0> = [Number,148,24,30]; ]
+            const y1 as Number = 345;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 149; @position = 18; @symbol_constdef = [x1,149,18,20]; @symbol_type<0> = [Number,149,24,30]; ]
+            const x1 as Number = 84;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 150; @position = 18; @symbol_constdef = [y2,150,18,20]; @symbol_type<0> = [Number,150,24,30]; ]
+            const y2 as Number = 454;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 151; @position = 18; @symbol_constdef = [x2,151,18,20]; @symbol_type<0> = [Number,151,24,30]; ]
+            const x2 as Number = 370;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 154; @symbol_moduledef = [prompt_font__body_with_title,154,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 154; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 155 18 ]
+                symbol [ Graphics %tmp.91 155 34 42 ];
+                %tmp.91 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.92 155 43 62 ];
+                %tmp.92 = getv %tmp.91 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.92;
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 156 18 ]
+                symbol [ Graphics %tmp.93 156 25 33 ];
+                %tmp.93 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.94 156 34 43 ];
+                %tmp.94 = getv %tmp.93 :FONT_TINY;
+                putv self :font %tmp.94;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 155; @position = 18; @symbol_constdef = [justification,155,18,31]; ]
+            const justification;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 156; @position = 18; @symbol_constdef = [font,156,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 159; @symbol_moduledef = [confirmation_loc__body,159,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 159; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 160; @position = 18; @symbol_constdef = [x,160,18,19]; @symbol_type<0> = [Number,160,23,29]; ]
+            const x as Number = 93;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 161; @position = 18; @symbol_constdef = [y,161,18,19]; @symbol_type<0> = [Number,161,23,29]; ]
+            const y as Number = 91;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 164; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,164,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 164; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 165; @position = 18; @symbol_constdef = [exclude,165,18,25]; @symbol_type<0> = [Boolean,165,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 168; @symbol_moduledef = [prompt_color_dark__background,168,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 168; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 169; @position = 18; @symbol_constdef = [color,169,18,23]; @symbol_type<0> = [Number,169,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 170; @position = 18; @symbol_constdef = [background,170,18,28]; @symbol_type<0> = [Number,170,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 173; @symbol_moduledef = [system_icon_destructive__hint_action_menu,173,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 173; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 174; @position = 18; @symbol_constdef = [filename,174,18,26]; @symbol_type<0> = [String,174,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_destructive__hint_action_menu.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 175; @position = 18; @symbol_constdef = [dithering,175,18,27]; @symbol_type<0> = [String,175,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 176; @position = 18; @symbol_constdef = [packingFormat,176,18,31]; @symbol_type<0> = [String,176,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 179; @symbol_moduledef = [system_loc__hint_action_menu,179,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 179; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 180; @position = 18; @symbol_constdef = [x,180,18,19]; @symbol_type<0> = [Number,180,23,29]; ]
+            const x as Number = 227;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 181; @position = 18; @symbol_constdef = [horizontalJustification,181,18,41]; @symbol_type<0> = [String,181,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [y,182,18,19]; @symbol_type<0> = [Number,182,23,29]; ]
+            const y as Number = 370;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 185; @symbol_moduledef = [confirmation_icon__hint_confirm,185,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 185; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 186; @position = 18; @symbol_constdef = [filename,186,18,26]; @symbol_type<0> = [String,186,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [dithering,187,18,27]; @symbol_type<0> = [String,187,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [packingFormat,188,18,31]; @symbol_type<0> = [String,188,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 191; @symbol_moduledef = [system_loc__hint_button_left_middle,191,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 191; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [exclude,192,18,25]; @symbol_type<0> = [Boolean,192,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 195; @symbol_moduledef = [prompt_size__body_no_title,195,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 195; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [width,196,18,23]; @symbol_type<0> = [Number,196,27,33]; ]
+            const width as Number = 363;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [height,197,18,24]; @symbol_type<0> = [Number,197,28,34]; ]
+            const height as Number = 295;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 200; @symbol_moduledef = [system_icon_light__hint_button_left_top,200,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 200; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 201; @position = 18; @symbol_constdef = [exclude,201,18,25]; @symbol_type<0> = [Boolean,201,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 204; @symbol_moduledef = [prompt_color_light__background,204,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 204; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 205; @position = 18; @symbol_constdef = [color,205,18,23]; @symbol_type<0> = [Number,205,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 206; @position = 18; @symbol_constdef = [background,206,18,28]; @symbol_type<0> = [Number,206,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 209; @symbol_moduledef = [confirmation_input__delete,209,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 209; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 210 18 ]
+                symbol [ WatchUi %tmp.95 210 27 34 ];
+                %tmp.95 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.96 210 35 44 ];
+                %tmp.96 = getv %tmp.95 :KEY_ENTER;
+                putv self :button %tmp.96;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 210; @position = 18; @symbol_constdef = [button,210,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 213; @symbol_moduledef = [system_icon_dark__hint_button_left_top,213,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 213; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 214; @position = 18; @symbol_constdef = [exclude,214,18,25]; @symbol_type<0> = [Boolean,214,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 217; @symbol_moduledef = [system_input__action_menu,217,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 217; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 218; @position = 18; @symbol_constdef = [y1,218,18,20]; @symbol_type<0> = [Number,218,24,30]; ]
+            const y1 as Number = 370;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 219; @position = 18; @symbol_constdef = [x1,219,18,20]; @symbol_type<0> = [Number,219,24,30]; ]
+            const x1 as Number = 113;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [y2,220,18,20]; @symbol_type<0> = [Number,220,24,30]; ]
+            const y2 as Number = 454;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [x2,221,18,20]; @symbol_type<0> = [Number,221,24,30]; ]
+            const x2 as Number = 341;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 224; @symbol_moduledef = [system_icon_light__save,224,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 224; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 225; @position = 18; @symbol_constdef = [filename,225,18,26]; @symbol_type<0> = [String,225,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__save.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [compress,226,18,26]; @symbol_type<0> = [String,226,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [dithering,227,18,27]; @symbol_type<0> = [String,227,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 228; @position = 18; @symbol_constdef = [automaticPalette,228,18,34]; @symbol_type<0> = [String,228,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 229; @position = 18; @symbol_constdef = [packingFormat,229,18,31]; @symbol_type<0> = [String,229,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 232; @symbol_moduledef = [prompt_color_light__body,232,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 232; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 234 18 ]
+                symbol [ Graphics %tmp.97 234 31 39 ];
+                %tmp.97 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.98 234 40 57 ];
+                %tmp.98 = getv %tmp.97 :COLOR_TRANSPARENT;
+                putv self :background %tmp.98;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 233; @position = 18; @symbol_constdef = [color,233,18,23]; @symbol_type<0> = [Number,233,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 234; @position = 18; @symbol_constdef = [background,234,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 237; @symbol_moduledef = [system_loc__subwindow,237,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 237; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 238; @position = 18; @symbol_constdef = [exclude,238,18,25]; @symbol_type<0> = [Boolean,238,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 241; @symbol_moduledef = [system_icon_light__warning,241,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 241; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 242; @position = 18; @symbol_constdef = [filename,242,18,26]; @symbol_type<0> = [String,242,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__warning.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 243; @position = 18; @symbol_constdef = [compress,243,18,26]; @symbol_type<0> = [String,243,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [dithering,244,18,27]; @symbol_type<0> = [String,244,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [automaticPalette,245,18,34]; @symbol_type<0> = [String,245,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [packingFormat,246,18,31]; @symbol_type<0> = [String,246,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 249; @symbol_moduledef = [confirmation_color_light__body,249,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 249; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 251 18 ]
+                symbol [ Graphics %tmp.99 251 31 39 ];
+                %tmp.99 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.100 251 40 57 ];
+                %tmp.100 = getv %tmp.99 :COLOR_TRANSPARENT;
+                putv self :background %tmp.100;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [color,250,18,23]; @symbol_type<0> = [Number,250,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [background,251,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 254; @symbol_moduledef = [confirmation_icon_light__hint_keep,254,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [filename,255,18,26]; @symbol_type<0> = [String,255,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [dithering,256,18,27]; @symbol_type<0> = [String,256,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 257; @position = 18; @symbol_constdef = [packingFormat,257,18,31]; @symbol_type<0> = [String,257,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 260; @symbol_moduledef = [activity_color_light__background,260,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 260; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 261; @position = 18; @symbol_constdef = [color,261,18,23]; @symbol_type<0> = [Number,261,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 262; @position = 18; @symbol_constdef = [background,262,18,28]; @symbol_type<0> = [Number,262,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 265; @symbol_moduledef = [system_icon_positive__hint_button_right_top,265,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 265; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 266; @position = 18; @symbol_constdef = [filename,266,18,26]; @symbol_type<0> = [String,266,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 267; @position = 18; @symbol_constdef = [dithering,267,18,27]; @symbol_type<0> = [String,267,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 270; @symbol_moduledef = [system_size__screen,270,15,34]; ]
+        module system_size__screen {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 270; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 271; @position = 18; @symbol_constdef = [width,271,18,23]; @symbol_type<0> = [Number,271,27,33]; ]
+            const width as Number = 454;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 272; @position = 18; @symbol_constdef = [height,272,18,24]; @symbol_type<0> = [Number,272,28,34]; ]
+            const height as Number = 454;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 275; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,275,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 275; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 276; @position = 18; @symbol_constdef = [filename,276,18,26]; @symbol_type<0> = [String,276,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 277; @position = 18; @symbol_constdef = [dithering,277,18,27]; @symbol_type<0> = [String,277,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 280; @symbol_moduledef = [system_color_light__background,280,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 280; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 281; @position = 18; @symbol_constdef = [color,281,18,23]; @symbol_type<0> = [Number,281,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 282; @position = 18; @symbol_constdef = [background,282,18,28]; @symbol_type<0> = [Number,282,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 285; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,285,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 285; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 286; @position = 18; @symbol_constdef = [filename,286,18,26]; @symbol_type<0> = [String,286,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 287; @position = 18; @symbol_constdef = [dithering,287,18,27]; @symbol_type<0> = [String,287,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 290; @symbol_moduledef = [confirmation_loc__hint_confirm,290,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 290; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 291; @position = 18; @symbol_constdef = [x,291,18,19]; @symbol_type<0> = [Number,291,23,29]; ]
+            const x as Number = 227;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 292; @position = 18; @symbol_constdef = [horizontalJustification,292,18,41]; @symbol_type<0> = [String,292,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 293; @position = 18; @symbol_constdef = [y,293,18,19]; @symbol_type<0> = [Number,293,23,29]; ]
+            const y as Number = 345;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 296; @symbol_moduledef = [activity_color_dark__text,296,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 296; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 298 18 ]
+                symbol [ Graphics %tmp.101 298 31 39 ];
+                %tmp.101 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.102 298 40 57 ];
+                %tmp.102 = getv %tmp.101 :COLOR_TRANSPARENT;
+                putv self :background %tmp.102;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 297; @position = 18; @symbol_constdef = [color,297,18,23]; @symbol_type<0> = [Number,297,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [background,298,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 301; @symbol_moduledef = [confirmation_input__keep,301,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 301; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 302 18 ]
+                symbol [ WatchUi %tmp.103 302 27 34 ];
+                %tmp.103 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ESC %tmp.104 302 35 42 ];
+                %tmp.104 = getv %tmp.103 :KEY_ESC;
+                putv self :button %tmp.104;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 302; @position = 18; @symbol_constdef = [button,302,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 305; @symbol_moduledef = [prompt_loc__body_with_title,305,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 305; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 306; @position = 18; @symbol_constdef = [x,306,18,19]; @symbol_type<0> = [Number,306,23,29]; ]
+            const x as Number = 45;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 307; @position = 18; @symbol_constdef = [y,307,18,19]; @symbol_type<0> = [Number,307,23,29]; ]
+            const y as Number = 114;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 310; @symbol_moduledef = [system_icon_dark__search,310,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 310; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 311; @position = 18; @symbol_constdef = [filename,311,18,26]; @symbol_type<0> = [String,311,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_dark__search.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 312; @position = 18; @symbol_constdef = [compress,312,18,26]; @symbol_type<0> = [String,312,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 313; @position = 18; @symbol_constdef = [dithering,313,18,27]; @symbol_type<0> = [String,313,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [automaticPalette,314,18,34]; @symbol_type<0> = [String,314,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 315; @position = 18; @symbol_constdef = [packingFormat,315,18,31]; @symbol_type<0> = [String,315,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 318; @symbol_moduledef = [activity_color_light__text,318,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 318; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 320 18 ]
+                symbol [ Graphics %tmp.105 320 31 39 ];
+                %tmp.105 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.106 320 40 57 ];
+                %tmp.106 = getv %tmp.105 :COLOR_TRANSPARENT;
+                putv self :background %tmp.106;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 319; @position = 18; @symbol_constdef = [color,319,18,23]; @symbol_type<0> = [Number,319,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 320; @position = 18; @symbol_constdef = [background,320,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 323; @symbol_moduledef = [confirmation_icon__hint_keep,323,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 323; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [filename,324,18,26]; @symbol_type<0> = [String,324,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 325; @position = 18; @symbol_constdef = [dithering,325,18,27]; @symbol_type<0> = [String,325,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 326; @position = 18; @symbol_constdef = [packingFormat,326,18,31]; @symbol_type<0> = [String,326,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 329; @symbol_moduledef = [system_icon_dark__save,329,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 329; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 330; @position = 18; @symbol_constdef = [filename,330,18,26]; @symbol_type<0> = [String,330,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_dark__save.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 331; @position = 18; @symbol_constdef = [compress,331,18,26]; @symbol_type<0> = [String,331,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 332; @position = 18; @symbol_constdef = [dithering,332,18,27]; @symbol_type<0> = [String,332,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [automaticPalette,333,18,34]; @symbol_type<0> = [String,333,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 334; @position = 18; @symbol_constdef = [packingFormat,334,18,31]; @symbol_type<0> = [String,334,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 337; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,337,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 337; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [exclude,338,18,25]; @symbol_type<0> = [Boolean,338,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 341; @symbol_moduledef = [system_icon_light__search,341,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 341; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [filename,342,18,26]; @symbol_type<0> = [String,342,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__search.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [compress,343,18,26]; @symbol_type<0> = [String,343,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [dithering,344,18,27]; @symbol_type<0> = [String,344,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 345; @position = 18; @symbol_constdef = [automaticPalette,345,18,34]; @symbol_type<0> = [String,345,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 346; @position = 18; @symbol_constdef = [packingFormat,346,18,31]; @symbol_type<0> = [String,346,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 349; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,349,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 349; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 350; @position = 18; @symbol_constdef = [exclude,350,18,25]; @symbol_type<0> = [Boolean,350,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 353; @symbol_moduledef = [system_icon_positive__hint_button_left_top,353,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 353; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 354; @position = 18; @symbol_constdef = [exclude,354,18,25]; @symbol_type<0> = [Boolean,354,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 357; @symbol_moduledef = [system_loc__hint_button_right_bottom,357,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 357; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [x,358,18,19]; @symbol_type<0> = [Number,358,23,29]; ]
+            const x as Number = 342;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 359; @position = 18; @symbol_constdef = [y,359,18,19]; @symbol_type<0> = [Number,359,23,29]; ]
+            const y as Number = 256;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 362; @symbol_moduledef = [confirmation_icon_dark__hint_reject,362,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 362; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [filename,363,18,26]; @symbol_type<0> = [String,363,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 364; @position = 18; @symbol_constdef = [dithering,364,18,27]; @symbol_type<0> = [String,364,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 365; @position = 18; @symbol_constdef = [packingFormat,365,18,31]; @symbol_type<0> = [String,365,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 368; @symbol_moduledef = [confirmation_color_dark__body,368,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 368; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 370 18 ]
+                symbol [ Graphics %tmp.107 370 31 39 ];
+                %tmp.107 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.108 370 40 57 ];
+                %tmp.108 = getv %tmp.107 :COLOR_TRANSPARENT;
+                putv self :background %tmp.108;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 369; @position = 18; @symbol_constdef = [color,369,18,23]; @symbol_type<0> = [Number,369,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 370; @position = 18; @symbol_constdef = [background,370,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 373; @symbol_moduledef = [confirmation_icon_light__hint_confirm,373,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 373; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 374; @position = 18; @symbol_constdef = [filename,374,18,26]; @symbol_type<0> = [String,374,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 375; @position = 18; @symbol_constdef = [dithering,375,18,27]; @symbol_type<0> = [String,375,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [packingFormat,376,18,31]; @symbol_type<0> = [String,376,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 379; @symbol_moduledef = [prompt_color_dark__title,379,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 379; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 381 18 ]
+                symbol [ Graphics %tmp.109 381 31 39 ];
+                %tmp.109 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.110 381 40 57 ];
+                %tmp.110 = getv %tmp.109 :COLOR_TRANSPARENT;
+                putv self :background %tmp.110;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 380; @position = 18; @symbol_constdef = [color,380,18,23]; @symbol_type<0> = [Number,380,27,33]; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 381; @position = 18; @symbol_constdef = [background,381,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 384; @symbol_moduledef = [system_icon_destructive__cancel,384,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 384; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 385; @position = 18; @symbol_constdef = [filename,385,18,26]; @symbol_type<0> = [String,385,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_destructive__cancel.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 386; @position = 18; @symbol_constdef = [dithering,386,18,27]; @symbol_type<0> = [String,386,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [packingFormat,387,18,31]; @symbol_type<0> = [String,387,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 390; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,390,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 390; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [filename,391,18,26]; @symbol_type<0> = [String,391,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [dithering,392,18,27]; @symbol_type<0> = [String,392,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 395; @symbol_moduledef = [prompt_loc__title,395,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 395; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [x,396,18,19]; @symbol_type<0> = [Number,396,23,29]; ]
+            const x as Number = 138;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [y,397,18,19]; @symbol_type<0> = [Number,397,23,29]; ]
+            const y as Number = 20;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 400; @symbol_moduledef = [confirmation_font_enhanced_readability__body,400,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 400; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 401 18 ]
+                symbol [ Graphics %tmp.111 401 34 42 ];
+                %tmp.111 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.112 401 43 62 ];
+                %tmp.112 = getv %tmp.111 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.113 401 63 71 ];
+                %tmp.113 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.114 401 72 92 ];
+                %tmp.114 = getv %tmp.113 :TEXT_JUSTIFY_VCENTER;
+                %tmp.115 = bitor %tmp.112 %tmp.114;
+                putv self :justification %tmp.115;
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 402 18 ]
+                symbol [ Graphics %tmp.116 402 25 33 ];
+                %tmp.116 = getm $.Toybox.Graphics;
+                symbol [ FONT_SMALL %tmp.117 402 34 44 ];
+                %tmp.117 = getv %tmp.116 :FONT_SMALL;
+                putv self :font %tmp.117;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [justification,401,18,31]; ]
+            const justification;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [font,402,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 405; @symbol_moduledef = [prompt_color_light__title,405,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 405; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 407 18 ]
+                symbol [ Graphics %tmp.118 407 31 39 ];
+                %tmp.118 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.119 407 40 57 ];
+                %tmp.119 = getv %tmp.118 :COLOR_TRANSPARENT;
+                putv self :background %tmp.119;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [color,406,18,23]; @symbol_type<0> = [Number,406,27,33]; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [background,407,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 410; @symbol_moduledef = [system_icon_dark__hint_button_right_top,410,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 410; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [filename,411,18,26]; @symbol_type<0> = [String,411,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [dithering,412,18,27]; @symbol_type<0> = [String,412,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 415; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,415,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 415; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [exclude,416,18,25]; @symbol_type<0> = [Boolean,416,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 419; @symbol_moduledef = [confirmation_icon_dark__hint_keep,419,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 419; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 420; @position = 18; @symbol_constdef = [filename,420,18,26]; @symbol_type<0> = [String,420,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [dithering,421,18,27]; @symbol_type<0> = [String,421,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [packingFormat,422,18,31]; @symbol_type<0> = [String,422,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 425; @symbol_moduledef = [system_icon_light__cancel,425,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [filename,426,18,26]; @symbol_type<0> = [String,426,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__cancel.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [compress,427,18,26]; @symbol_type<0> = [String,427,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 428; @position = 18; @symbol_constdef = [dithering,428,18,27]; @symbol_type<0> = [String,428,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 429; @position = 18; @symbol_constdef = [automaticPalette,429,18,34]; @symbol_type<0> = [String,429,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 430; @position = 18; @symbol_constdef = [packingFormat,430,18,31]; @symbol_type<0> = [String,430,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 433; @symbol_moduledef = [confirmation_icon_light__hint_reject,433,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 433; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 434; @position = 18; @symbol_constdef = [filename,434,18,26]; @symbol_type<0> = [String,434,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [dithering,435,18,27]; @symbol_type<0> = [String,435,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [packingFormat,436,18,31]; @symbol_type<0> = [String,436,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 439; @symbol_moduledef = [system_icon_light__about,439,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 439; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [filename,440,18,26]; @symbol_type<0> = [String,440,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__about.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [compress,441,18,26]; @symbol_type<0> = [String,441,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 442; @position = 18; @symbol_constdef = [dithering,442,18,27]; @symbol_type<0> = [String,442,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 443; @position = 18; @symbol_constdef = [automaticPalette,443,18,34]; @symbol_type<0> = [String,443,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 444; @position = 18; @symbol_constdef = [packingFormat,444,18,31]; @symbol_type<0> = [String,444,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 447; @symbol_moduledef = [system_size__toast_icon,447,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 447; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 448; @position = 18; @symbol_constdef = [scaleX,448,18,24]; @symbol_type<0> = [Number,448,28,34]; ]
+            const scaleX as Number = 38;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 449; @position = 18; @symbol_constdef = [scaleY,449,18,24]; @symbol_type<0> = [Number,449,28,34]; ]
+            const scaleY as Number = 38;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [scaleRelativeTo,450,18,33]; @symbol_type<0> = [String,450,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 453; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,453,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 453; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 454; @position = 18; @symbol_constdef = [exclude,454,18,25]; @symbol_type<0> = [Boolean,454,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 457; @symbol_moduledef = [confirmation_icon__hint_reject,457,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 457; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 458; @position = 18; @symbol_constdef = [filename,458,18,26]; @symbol_type<0> = [String,458,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 459; @position = 18; @symbol_constdef = [dithering,459,18,27]; @symbol_type<0> = [String,459,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 460; @position = 18; @symbol_constdef = [packingFormat,460,18,31]; @symbol_type<0> = [String,460,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 463; @symbol_moduledef = [system_icon_light__hint_action_menu,463,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 463; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 464; @position = 18; @symbol_constdef = [filename,464,18,26]; @symbol_type<0> = [String,464,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__hint_action_menu.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 465; @position = 18; @symbol_constdef = [dithering,465,18,27]; @symbol_type<0> = [String,465,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [packingFormat,466,18,31]; @symbol_type<0> = [String,466,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 469; @symbol_moduledef = [system_icon_light__hint_button_right_middle,469,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [exclude,470,18,25]; @symbol_type<0> = [Boolean,470,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 473; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,473,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 473; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 474; @position = 18; @symbol_constdef = [exclude,474,18,25]; @symbol_type<0> = [Boolean,474,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 477; @symbol_moduledef = [confirmation_loc__hint_reject,477,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 477; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 478; @position = 18; @symbol_constdef = [x,478,18,19]; @symbol_type<0> = [Number,478,23,29]; ]
+            const x as Number = 227;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 479; @position = 18; @symbol_constdef = [horizontalJustification,479,18,41]; @symbol_type<0> = [String,479,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 480; @position = 18; @symbol_constdef = [y,480,18,19]; @symbol_type<0> = [Number,480,23,29]; ]
+            const y as Number = 0;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 483; @symbol_moduledef = [confirmation_icon_dark__hint_delete,483,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 483; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 484; @position = 18; @symbol_constdef = [filename,484,18,26]; @symbol_type<0> = [String,484,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [dithering,485,18,27]; @symbol_type<0> = [String,485,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 486; @position = 18; @symbol_constdef = [packingFormat,486,18,31]; @symbol_type<0> = [String,486,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 489; @symbol_moduledef = [activity_color_dark__background,489,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 489; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [color,490,18,23]; @symbol_type<0> = [Number,490,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [background,491,18,28]; @symbol_type<0> = [Number,491,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 494; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,494,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [exclude,495,18,25]; @symbol_type<0> = [Boolean,495,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 498; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,498,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 498; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 499; @position = 18; @symbol_constdef = [exclude,499,18,25]; @symbol_type<0> = [Boolean,499,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 502; @symbol_moduledef = [system_size__menu_icon,502,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 502; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [scaleX,503,18,24]; @symbol_type<0> = [Number,503,28,34]; ]
+            const scaleX as Number = 55;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 504; @position = 18; @symbol_constdef = [scaleY,504,18,24]; @symbol_type<0> = [Number,504,28,34]; ]
+            const scaleY as Number = 55;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 505; @position = 18; @symbol_constdef = [scaleRelativeTo,505,18,33]; @symbol_type<0> = [String,505,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 508; @symbol_moduledef = [system_icon_destructive__warning,508,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 508; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 509; @position = 18; @symbol_constdef = [filename,509,18,26]; @symbol_type<0> = [String,509,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_destructive__warning.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 510; @position = 18; @symbol_constdef = [dithering,510,18,27]; @symbol_type<0> = [String,510,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 511; @position = 18; @symbol_constdef = [packingFormat,511,18,31]; @symbol_type<0> = [String,511,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 514; @symbol_moduledef = [system_loc__hint_button_right_middle,514,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 514; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [exclude,515,18,25]; @symbol_type<0> = [Boolean,515,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 518; @symbol_moduledef = [system_icon_dark__cancel,518,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 518; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 519; @position = 18; @symbol_constdef = [filename,519,18,26]; @symbol_type<0> = [String,519,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_dark__cancel.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 520; @position = 18; @symbol_constdef = [compress,520,18,26]; @symbol_type<0> = [String,520,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 521; @position = 18; @symbol_constdef = [dithering,521,18,27]; @symbol_type<0> = [String,521,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 522; @position = 18; @symbol_constdef = [automaticPalette,522,18,34]; @symbol_type<0> = [String,522,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 523; @position = 18; @symbol_constdef = [packingFormat,523,18,31]; @symbol_type<0> = [String,523,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 526; @symbol_moduledef = [prompt_size__body_with_title,526,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 526; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 527; @position = 18; @symbol_constdef = [width,527,18,23]; @symbol_type<0> = [Number,527,27,33]; ]
+            const width as Number = 363;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 528; @position = 18; @symbol_constdef = [height,528,18,24]; @symbol_type<0> = [Number,528,28,34]; ]
+            const height as Number = 250;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 531; @symbol_moduledef = [system_loc__hint_button_right_top,531,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 531; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [x,532,18,19]; @symbol_type<0> = [Number,532,23,29]; ]
+            const x as Number = 360;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [y,533,18,19]; @symbol_type<0> = [Number,533,23,29]; ]
+            const y as Number = 54;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 536; @symbol_moduledef = [system_color_light__text,536,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 536; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 538 18 ]
+                symbol [ Graphics %tmp.120 538 31 39 ];
+                %tmp.120 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.121 538 40 57 ];
+                %tmp.121 = getv %tmp.120 :COLOR_TRANSPARENT;
+                putv self :background %tmp.121;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [color,537,18,23]; @symbol_type<0> = [Number,537,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [background,538,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 541; @symbol_moduledef = [system_icon_light__check,541,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 541; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [filename,542,18,26]; @symbol_type<0> = [String,542,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__check.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 543; @position = 18; @symbol_constdef = [compress,543,18,26]; @symbol_type<0> = [String,543,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 544; @position = 18; @symbol_constdef = [dithering,544,18,27]; @symbol_type<0> = [String,544,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 545; @position = 18; @symbol_constdef = [automaticPalette,545,18,34]; @symbol_type<0> = [String,545,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 546; @position = 18; @symbol_constdef = [packingFormat,546,18,31]; @symbol_type<0> = [String,546,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 549; @symbol_moduledef = [confirmation_input__reject,549,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 549; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 550; @position = 18; @symbol_constdef = [y1,550,18,20]; @symbol_type<0> = [Number,550,24,30]; ]
+            const y1 as Number = 0;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 551; @position = 18; @symbol_constdef = [x1,551,18,20]; @symbol_type<0> = [Number,551,24,30]; ]
+            const x1 as Number = 113;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 552; @position = 18; @symbol_constdef = [y2,552,18,20]; @symbol_type<0> = [Number,552,24,30]; ]
+            const y2 as Number = 88;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [x2,553,18,20]; @symbol_type<0> = [Number,553,24,30]; ]
+            const x2 as Number = 341;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 556; @symbol_moduledef = [system_icon_light__revert,556,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 556; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 557; @position = 18; @symbol_constdef = [filename,557,18,26]; @symbol_type<0> = [String,557,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__revert.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 558; @position = 18; @symbol_constdef = [compress,558,18,26]; @symbol_type<0> = [String,558,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 559; @position = 18; @symbol_constdef = [dithering,559,18,27]; @symbol_type<0> = [String,559,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [automaticPalette,560,18,34]; @symbol_type<0> = [String,560,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [packingFormat,561,18,31]; @symbol_type<0> = [String,561,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 564; @symbol_moduledef = [system_size__subwindow,564,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 564; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [exclude,565,18,25]; @symbol_type<0> = [Boolean,565,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 568; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,568,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 568; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 569; @position = 18; @symbol_constdef = [exclude,569,18,25]; @symbol_type<0> = [Boolean,569,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 572; @symbol_moduledef = [system_icon_dark__check,572,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 572; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 573; @position = 18; @symbol_constdef = [filename,573,18,26]; @symbol_type<0> = [String,573,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_dark__check.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 574; @position = 18; @symbol_constdef = [compress,574,18,26]; @symbol_type<0> = [String,574,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 575; @position = 18; @symbol_constdef = [dithering,575,18,27]; @symbol_type<0> = [String,575,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 576; @position = 18; @symbol_constdef = [automaticPalette,576,18,34]; @symbol_type<0> = [String,576,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 577; @position = 18; @symbol_constdef = [packingFormat,577,18,31]; @symbol_type<0> = [String,577,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 580; @symbol_moduledef = [confirmation_loc__hint_keep,580,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 580; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 581; @position = 18; @symbol_constdef = [x,581,18,19]; @symbol_type<0> = [Number,581,23,29]; ]
+            const x as Number = 342;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [y,582,18,19]; @symbol_type<0> = [Number,582,23,29]; ]
+            const y as Number = 256;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 585; @symbol_moduledef = [confirmation_loc__hint_delete,585,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 585; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 586; @position = 18; @symbol_constdef = [x,586,18,19]; @symbol_type<0> = [Number,586,23,29]; ]
+            const x as Number = 358;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [y,587,18,19]; @symbol_type<0> = [Number,587,23,29]; ]
+            const y as Number = 54;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 590; @symbol_moduledef = [system_icon_positive__hint_action_menu,590,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 590; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [filename,591,18,26]; @symbol_type<0> = [String,591,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_positive__hint_action_menu.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [dithering,592,18,27]; @symbol_type<0> = [String,592,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [packingFormat,593,18,31]; @symbol_type<0> = [String,593,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 596; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,596,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 596; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [exclude,597,18,25]; @symbol_type<0> = [Boolean,597,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 600; @symbol_moduledef = [system_icon_light__hint_button_left_middle,600,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 600; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 601; @position = 18; @symbol_constdef = [exclude,601,18,25]; @symbol_type<0> = [Boolean,601,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 604; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,604,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 604; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [filename,605,18,26]; @symbol_type<0> = [String,605,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [dithering,606,18,27]; @symbol_type<0> = [String,606,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 609; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,609,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 609; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [filename,610,18,26]; @symbol_type<0> = [String,610,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [dithering,611,18,27]; @symbol_type<0> = [String,611,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 614; @symbol_moduledef = [system_icon_dark__revert,614,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 614; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [filename,615,18,26]; @symbol_type<0> = [String,615,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_dark__revert.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [compress,616,18,26]; @symbol_type<0> = [String,616,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [dithering,617,18,27]; @symbol_type<0> = [String,617,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 618; @position = 18; @symbol_constdef = [automaticPalette,618,18,34]; @symbol_type<0> = [String,618,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 619; @position = 18; @symbol_constdef = [packingFormat,619,18,31]; @symbol_type<0> = [String,619,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 622; @symbol_moduledef = [confirmation_icon_light__hint_delete,622,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 622; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 623; @position = 18; @symbol_constdef = [filename,623,18,26]; @symbol_type<0> = [String,623,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 624; @position = 18; @symbol_constdef = [dithering,624,18,27]; @symbol_type<0> = [String,624,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 625; @position = 18; @symbol_constdef = [packingFormat,625,18,31]; @symbol_type<0> = [String,625,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 628; @symbol_moduledef = [system_icon_dark__question,628,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 628; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 629; @position = 18; @symbol_constdef = [filename,629,18,26]; @symbol_type<0> = [String,629,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_dark__question.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [compress,630,18,26]; @symbol_type<0> = [String,630,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [dithering,631,18,27]; @symbol_type<0> = [String,631,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [automaticPalette,632,18,34]; @symbol_type<0> = [String,632,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [packingFormat,633,18,31]; @symbol_type<0> = [String,633,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 636; @symbol_moduledef = [system_icon_light__discard,636,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 636; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [filename,637,18,26]; @symbol_type<0> = [String,637,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__discard.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [compress,638,18,26]; @symbol_type<0> = [String,638,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [dithering,639,18,27]; @symbol_type<0> = [String,639,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [automaticPalette,640,18,34]; @symbol_type<0> = [String,640,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [packingFormat,641,18,31]; @symbol_type<0> = [String,641,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 644; @symbol_moduledef = [device_info,644,15,26]; ]
+        module device_info {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 644; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 646 18 ]
+                symbol [ Toybox %tmp.123 646 32 38 ];
+                %tmp.123 = getv ? :Toybox;
+                symbol [ System %tmp.124 646 39 45 ];
+                %tmp.124 = getv %tmp.123 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.125 646 46 64 ];
+                %tmp.125 = getv %tmp.124 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.125;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [screenWidth,645,18,29]; @symbol_type<0> = [Number,645,33,39]; ]
+            const screenWidth as Number = 454;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [screenShape,646,18,29]; ]
+            const screenShape;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 647; @position = 18; @symbol_constdef = [hasNightMode,647,18,30]; @symbol_type<0> = [Boolean,647,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 648; @position = 18; @symbol_constdef = [hasGpu,648,18,24]; @symbol_type<0> = [Boolean,648,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 649; @position = 18; @symbol_constdef = [screenHeight,649,18,30]; @symbol_type<0> = [Number,649,34,40]; ]
+            const screenHeight as Number = 454;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 650; @position = 18; @symbol_constdef = [hasTouchScreen,650,18,32]; @symbol_type<0> = [Boolean,650,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,651,18,44]; @symbol_type<0> = [Boolean,651,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = true;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 654; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,654,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 654; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [filename,655,18,26]; @symbol_type<0> = [String,655,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [dithering,656,18,27]; @symbol_type<0> = [String,656,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 657; @position = 18; @symbol_constdef = [packingFormat,657,18,31]; @symbol_type<0> = [String,657,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 660; @symbol_moduledef = [prompt_font__body_no_title,660,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 660; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 661 18 ]
+                symbol [ Graphics %tmp.126 661 34 42 ];
+                %tmp.126 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.127 661 43 62 ];
+                %tmp.127 = getv %tmp.126 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.128 661 63 71 ];
+                %tmp.128 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.129 661 72 92 ];
+                %tmp.129 = getv %tmp.128 :TEXT_JUSTIFY_VCENTER;
+                %tmp.130 = bitor %tmp.127 %tmp.129;
+                putv self :justification %tmp.130;
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 662 18 ]
+                symbol [ Graphics %tmp.131 662 25 33 ];
+                %tmp.131 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.132 662 34 43 ];
+                %tmp.132 = getv %tmp.131 :FONT_TINY;
+                putv self :font %tmp.132;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [justification,661,18,31]; ]
+            const justification;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 662; @position = 18; @symbol_constdef = [font,662,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 665; @symbol_moduledef = [prompt_size__title_icon,665,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 665; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 666; @position = 18; @symbol_constdef = [scaleX,666,18,24]; @symbol_type<0> = [Float,666,28,33]; ]
+            const scaleX as Float = 0.14;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 667; @position = 18; @symbol_constdef = [scaleRelativeTo,667,18,33]; @symbol_type<0> = [String,667,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 670; @symbol_moduledef = [system_icon_dark__warning,670,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 670; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 671; @position = 18; @symbol_constdef = [filename,671,18,26]; @symbol_type<0> = [String,671,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_dark__warning.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 672; @position = 18; @symbol_constdef = [compress,672,18,26]; @symbol_type<0> = [String,672,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 673; @position = 18; @symbol_constdef = [dithering,673,18,27]; @symbol_type<0> = [String,673,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 674; @position = 18; @symbol_constdef = [automaticPalette,674,18,34]; @symbol_type<0> = [String,674,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 675; @position = 18; @symbol_constdef = [packingFormat,675,18,31]; @symbol_type<0> = [String,675,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 678; @symbol_moduledef = [prompt_loc__title_icon,678,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 678; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 679; @position = 18; @symbol_constdef = [x,679,18,19]; @symbol_type<0> = [Number,679,23,29]; ]
+            const x as Number = 227;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 680; @position = 18; @symbol_constdef = [y,680,18,19]; @symbol_type<0> = [Number,680,23,29]; ]
+            const y as Number = 45;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 681; @position = 18; @symbol_constdef = [horizontalJustification,681,18,41]; @symbol_type<0> = [String,681,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 682; @position = 18; @symbol_constdef = [verticalJustification,682,18,39]; @symbol_type<0> = [String,682,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 685; @symbol_moduledef = [prompt_font_enhanced_readability__title,685,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 685; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 686 18 ]
+                symbol [ Graphics %tmp.133 686 34 42 ];
+                %tmp.133 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.134 686 43 62 ];
+                %tmp.134 = getv %tmp.133 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.135 686 63 71 ];
+                %tmp.135 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.136 686 72 92 ];
+                %tmp.136 = getv %tmp.135 :TEXT_JUSTIFY_VCENTER;
+                %tmp.137 = bitor %tmp.134 %tmp.136;
+                putv self :justification %tmp.137;
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 687 18 ]
+                symbol [ Graphics %tmp.138 687 25 33 ];
+                %tmp.138 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.139 687 34 44 ];
+                %tmp.139 = getv %tmp.138 :FONT_XTINY;
+                putv self :font %tmp.139;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 686; @position = 18; @symbol_constdef = [justification,686,18,31]; ]
+            const justification;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 687; @position = 18; @symbol_constdef = [font,687,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 690; @symbol_moduledef = [prompt_color_dark__body,690,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 690; ]
+            <init> {
+[ "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen" 692 18 ]
+                symbol [ Graphics %tmp.140 692 31 39 ];
+                %tmp.140 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.141 692 40 57 ];
+                %tmp.141 = getv %tmp.140 :COLOR_TRANSPARENT;
+                putv self :background %tmp.141;
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 691; @position = 18; @symbol_constdef = [color,691,18,23]; @symbol_type<0> = [Number,691,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 692; @position = 18; @symbol_constdef = [background,692,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 695; @symbol_moduledef = [confirmation_icon__hint_delete,695,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 695; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 696; @position = 18; @symbol_constdef = [filename,696,18,26]; @symbol_type<0> = [String,696,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 697; @position = 18; @symbol_constdef = [dithering,697,18,27]; @symbol_type<0> = [String,697,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 698; @position = 18; @symbol_constdef = [packingFormat,698,18,31]; @symbol_type<0> = [String,698,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 701; @symbol_moduledef = [system_icon_light__hint_button_right_top,701,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 701; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 702; @position = 18; @symbol_constdef = [filename,702,18,26]; @symbol_type<0> = [String,702,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 703; @position = 18; @symbol_constdef = [dithering,703,18,27]; @symbol_type<0> = [String,703,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 706; @symbol_moduledef = [confirmation_size__body,706,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 706; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 707; @position = 18; @symbol_constdef = [width,707,18,23]; @symbol_type<0> = [Number,707,27,33]; ]
+            const width as Number = 269;
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 708; @position = 18; @symbol_constdef = [height,708,18,24]; @symbol_type<0> = [Number,708,28,34]; ]
+            const height as Number = 272;
+        }
+        [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 711; @symbol_moduledef = [system_icon_positive__check,711,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 711; ]
+            <init> {
+            }
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 712; @position = 18; @symbol_constdef = [filename,712,18,26]; @symbol_type<0> = [String,712,30,36]; ]
+            const filename as String = "/Users/kevinmendez/Library/Application Support/Garmin/ConnectIQ/Devices/venu3/system_icon_positive__check.svg";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 713; @position = 18; @symbol_constdef = [dithering,713,18,27]; @symbol_type<0> = [String,713,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 714; @position = 18; @symbol_constdef = [packingFormat,714,18,31]; @symbol_type<0> = [String,714,35,41]; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "/Users/kevinmendez/Documents/projects/portafolio/Garmin/minimal-venu3-face/bin/gen/006-B4260-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}
