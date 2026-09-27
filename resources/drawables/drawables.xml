@@ -6,5 +6,4 @@
     <bitmap id="icon_notif" filename="notifications.png" />
     <bitmap id="icon_sun" filename="sun.png" />
     <bitmap id="icon_moon" filename="moon.png" />
-    <bitmap id="icon_test" filename="test.png" />
 </drawables>
