@@ -18,8 +18,8 @@ class minimal_venu3_faceView extends Ui.WatchFace {
     var iconNotif;
     var iconSun;
     var iconMoon;
-    var iconTest;
     var bg;
+    var fg;
 
     function initialize() {
         Ui.WatchFace.initialize();
@@ -31,7 +31,6 @@ class minimal_venu3_faceView extends Ui.WatchFace {
         iconNotif = Ui.loadResource(Rez.Drawables.icon_notif);
         iconSun   = Ui.loadResource(Rez.Drawables.icon_sun);
         iconMoon  = Ui.loadResource(Rez.Drawables.icon_moon);
-        iconTest  = Ui.loadResource(Rez.Drawables.icon_test);
     }
 
     function onLayout(dc as Gfx.Dc) as Void {
@@ -45,21 +44,20 @@ class minimal_venu3_faceView extends Ui.WatchFace {
     function onUpdate(dc as Gfx.Dc) as Void {
         _dc = dc;
 
-        // var bg = Gfx.createColor(200, 10, 0, 40); ///Color azul que me encantó - usar como opcion para elegir
-        // bg = Gfx.createColor(200, 38, 39, 100); /// otra opcion de azul
-        // bg = Gfx.createColor(200, 16, 16, 18);    //// Color que quiero
-        bg = Gfx.createColor(200, 16, 16, 18);
+        bg = getApp().getProperty("BackgroundColor") as Number;
+        fg = getApp().getProperty("ForegroundColor") as Number;
 
         // 1) Fondo
-        dc.setColor(Gfx.COLOR_WHITE, bg);
+        dc.setColor(fg, bg);
         dc.clear();
-        dc.setColor(Gfx.COLOR_WHITE, bg);
+        dc.setColor(fg, bg);
 
         // 2) Dial (marcas)
         drawDial(dc);
 
         // 3) Iconos + textos (quedarán debajo de las manecillas)
         var g = Greg.info(Time.now(), Time.FORMAT_SHORT);
+        dc.setColor(fg, Gfx.COLOR_TRANSPARENT);
 
         // Sol/Luna centrado (iconos 28px → offset 14 para centrar)
         var dayNightBmp = (g.hour >= 6 && g.hour < 18) ? iconSun : iconMoon;
@@ -71,10 +69,9 @@ class minimal_venu3_faceView extends Ui.WatchFace {
         dc.drawText(_cx - 50, _cy + 110, Gfx.FONT_XTINY, weekdayShort(g.day_of_week - 1), Gfx.TEXT_JUSTIFY_CENTER);
         dc.drawText(_cx - 50, _cy + 140, Gfx.FONT_XTINY, g.day, Gfx.TEXT_JUSTIFY_CENTER);
 
-        // Hora digital (HH:MM)
-        var hhStr = (g.hour < 10 ? "0" + g.hour : g.hour.toString());
-        var mmStr = (g.min  < 10 ? "0" + g.min  : g.min.toString());
-        var digital = hhStr + ":" + mmStr;
+        // Hora digital (HH:MM), formato según ajuste UseMilitaryFormat
+        var useMilitary = getApp().getProperty("UseMilitaryFormat") as Boolean;
+        var digital = hourString(g.hour, useMilitary) + ":" + (g.min < 10 ? "0" + g.min : g.min.toString());
         dc.drawText(_cx + 40, _cy + 112, Gfx.FONT_XTINY, digital, Gfx.TEXT_JUSTIFY_CENTER);
 
         // Métricas (tolerantes a permisos/modelo)
@@ -143,8 +140,8 @@ class minimal_venu3_faceView extends Ui.WatchFace {
     // }
 
     function drawDial(dc as Gfx.Dc) as Void {
-        // dibujamos líneas en blanco con fondo TRANSPARENTE
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+        // dibujamos las marcas con el color de primer plano configurado, fondo TRANSPARENTE
+        dc.setColor(fg, Gfx.COLOR_TRANSPARENT);
 
         var base   = (_w < _h ? _w : _h);
         var outerR = (base / 2) - 6;
@@ -213,12 +210,12 @@ class minimal_venu3_faceView extends Ui.WatchFace {
     drawHand(dc, minAng, base * 0.40, 5);
 
     // Segundero
-    dc.setColor(Gfx.COLOR_WHITE, bg);
+    dc.setColor(fg, bg);
     drawHand(dc, secAng, base * 0.46, 1);
 
     // --- Hub central (aro + punto) ---
-    dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-    dc.fillCircle(_cx, _cy, 11);        // círculo exterior blanco
+    dc.setColor(fg, Gfx.COLOR_TRANSPARENT);
+    dc.fillCircle(_cx, _cy, 11);        // círculo exterior con color de primer plano
     dc.setColor(bg, Gfx.COLOR_TRANSPARENT);
     dc.fillCircle(_cx, _cy, 3);        // relleno con el color de fondo
 }
@@ -240,6 +237,18 @@ class minimal_venu3_faceView extends Ui.WatchFace {
     function monthShort(m) {
         var arr = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
         return arr[(m - 1) % 12];
+    }
+
+    // Formatea la hora respetando la propiedad UseMilitaryFormat (24h vs 12h)
+    function hourString(hour as Number, useMilitary as Boolean) as String {
+        if (useMilitary) {
+            return (hour < 10 ? "0" + hour : hour.toString());
+        }
+        var h12 = hour % 12;
+        if (h12 == 0) {
+            h12 = 12;
+        }
+        return h12.toString();
     }
 
     function onPartialUpdate(dc as Gfx.Dc) as Void {
